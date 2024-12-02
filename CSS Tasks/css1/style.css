@@ -1,0 +1,21 @@
+h1{
+    background-color: black;
+    color: white;
+}
+#Cloud{
+    color: aqua;
+ }
+
+h2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+
+h3{
+    background-color: rgb(91, 134, 166);
+    color: rgb(88, 47, 126);
+    text-align: right;
+    text-decoration: underline;
+}
