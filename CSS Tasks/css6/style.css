@@ -1,0 +1,41 @@
+.nav {
+    background-color: rgb(97, 92, 92);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.nav-title {
+    color: white;
+    padding: 5px 0px 10px 15px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+
+
+
+
+}
+
+.btn {
+    background-color: rgb(138, 200, 223);
+    box-shadow: 2px 2px 2px;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.active:hover{
+    font-weight: bold ;
+    color: aqua;
+}
