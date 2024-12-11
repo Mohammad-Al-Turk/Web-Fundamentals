@@ -1,0 +1,390 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.HeadPage {
+    background-color: #000000;
+    height: 70px;
+    display: flex;
+
+
+
+
+
+}
+
+.sub {
+    width: 100%;
+    height: 100%;
+    color: white;
+    align-content: center;
+
+
+}
+
+
+
+
+.text {
+    height: 50%;
+    width: 60%;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+
+.ItemHead {
+    width: 75%;
+    height: 100%;
+    align-content: center;
+    text-align: end;
+    margin-right: 50px;
+}
+
+a {
+    color: white;
+    margin: 20px;
+}
+
+button {
+    background-color: rgb(0, 106, 255);
+    box-shadow: 2px 2px 2px rgb(0, 221, 255);
+    color: white;
+    height: 50%;
+}
+
+
+
+
+
+
+
+.MyPage {
+    background-color: brown;
+    height: 1200px;
+    display: flex;
+}
+
+
+
+
+.Container-1 {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 65%;
+}
+
+.profile {
+    background-color: rgb(165, 42, 120);
+    height: 40%;
+    width: 70%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 4px solid gray;
+
+    /* border: 4px solid gray; */
+}
+
+.profile-top {
+    background-color: rgb(22, 134, 182);
+    height: 30%;
+    width: 100%;
+}
+
+.profile-bottom {
+    background-color: rgb(255, 255, 255);
+    height: 70%;
+    align-content: center;
+
+}
+
+.dataBottonProfile {
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    width: 80%;
+    margin: 50px;
+}
+
+
+.user-circle {
+    height: 145px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.siz {
+    font-size: large;
+}
+
+.imgs {
+    width: 20px;
+}
+
+.padd {
+    padding: 20px;
+}
+
+
+
+
+
+.ed {
+    background-color: rgb(65, 165, 42);
+    height: 30%;
+    width: 70%;
+    border: 4px gray solid;
+}
+
+.EdTop {
+    background-color: rgb(61, 58, 58);
+    height: 30%;
+}
+
+
+
+.EdBottom {
+    background-color: white;
+    height: 70%;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.computer {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.university {
+    color: gray;
+    padding-left: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+.Container-2 {
+    background-color: rgb(255, 255, 255);
+    height: 1200px;
+    width: 35%;
+}
+
+
+.ConnReq {
+    background-color: rgb(42, 52, 165);
+    height: 250px;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 4px gray solid;
+}
+
+.ConnReqTop {
+    background-color: rgb(61, 58, 58);
+    height: 30%;
+    display: flex;
+}
+
+.two {
+    border: 4px solid white;
+    background-color: gray;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.num2 {
+    position: relative;
+    bottom: 35px;
+    left: 50px;
+}
+
+.title1 {
+    width: 30%;
+    height: 50%;
+    margin: 15px;
+}
+
+.title2 {
+    width: 80%;
+    height: 50%;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.ConnReqBottom {
+    background-color: white;
+    height: 70%;
+}
+
+.ConnReqBottom-a {
+    background-color: rgb(254, 255, 255);
+    height: 50%;
+    display: flex;
+}
+
+.ConnReqBottom-b {
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    display: flex;
+}
+
+.user-circle1 {
+    width: 80%;
+    margin-left: 10px;
+}
+
+.ACCircle {
+    width: 30%;
+    margin-bottom: 2px;
+}
+
+.ConnReqBottomm {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img1 {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 30px;
+}
+
+.p1 {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+
+.ConnReqBottomm {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+.YrConn {
+    height: 500px;
+    width: 80%;
+    border: 4px gray solid;
+}
+
+.YrConnTop {
+    background-color: rgb(61, 58, 58);
+    height: 100px;
+    display: flex;
+}
+
+.YrConnMed {
+    background-color: white;
+    height: 300px;
+}
+
+.YrConnBottom {
+    background-color: rgb(127, 111, 111);
+    height: 100px;
+    display: flex;
+}
+
+
+.num500 {
+    position: relative;
+    bottom: 23px;
+    left: 40px;
+}
+
+.title3 {
+    width: 30%;
+    height: 50%;
+    margin-bottom: px;
+    margin-left: 20px;
+}
+
+
+.title4 {
+    width: 80%;
+    height: 50%;
+    font-size: 25px;
+    margin-top: 40px;
+    color: white;
+}
+
+.num-500 {
+    border: 4px solid white;
+    background-color: gray;
+    height: 20px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.More {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.YrConnMedDiv {
+    width: 100%;
+    height: 25%;
+    display: flex;
+
+
+}
+
+.pDiv {
+    font-size: 20px;
+    margin-top: 30px;
+    align-items: start;
+    justify-content: start;
+}
+
+.imgDiv {
+    width: 50%;
+    height: 50%;
+    align-items: start;
+    justify-content: start;
+}
+
+.user-circle2 {
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    align-items: start;
+    justify-content: start;
+
+
+
+}
