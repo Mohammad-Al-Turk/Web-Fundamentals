@@ -1,0 +1,52 @@
+* {
+    margin: 0% auto;
+}
+
+.container {
+    background-color: rgb(228, 7, 74);
+    height: 500px;
+    width: 1000px;
+    border-style: 20px;
+    position: fixed;
+    top: 15%;
+    left: 20%;
+    border: 4px gray solid;
+}
+
+.TopTrofile {
+    background-color: aqua;
+    height: 30%;
+    width: 100%;
+}
+
+.user-circle {
+    width: 15%;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+}
+
+.BottomProfile {
+    background-color: white;
+    height: 70%;
+    width: 100%;
+}
+
+.ClassBottom {
+    background-color: white;
+    width: 85%;
+    height: 65%;
+    position: relative;
+    top: 30%;
+}
+.size {
+    width: 2%;
+}
+
+.ForPadding {
+    padding: 1%;
+}
+
+p {
+    font-size: 20px;
+}
