@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="navBar">
+        <h1>DojoWeather</h1>
+        <ul class="listNavBar">
+            <li onclick="cityClk()" >Burbank</li>
+            <li>Chicago</li>
+            <li>Dallas</li>
+        </ul>
+    </div>
+
+
+
+
+    <div class="dataTempBar">
+        <div class="cityName">
+            <h1> San Jose</h1>
+        </div>
+        <div class="tempData">
+            <p>Show temperature in: </p>
+            <select class="selector" onchange="selectDeg(value)">
+                <option value="C" >C</option>
+                <option value="F" >F</option>
+            </select>
+        </div>
+    </div>
+    <hr>
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+
+
+
+
+        <div class="dailyData">
+            <h1>Today</h1>
+            <img src="Photos/some_rain.png" alt="some_rain">
+            <p>Some rain</p>
+            <div class="tempEachDay">
+                <p class="highTemp"><span class="converter">24</span>°</p>
+                <p class="lowTemp"> <span class="converter">18</span>°</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="dailyData">
+            <h1>Tomorrow</h1>
+            <img src="Photos/some_sun.png" alt="some_sun">
+            <p>Some sun</p>
+            <div class="tempEachDay">
+                <p class="highTemp"><span class="converter">27</span>°</p>
+                <p class="lowTemp"><span class="converter">19</span>°</p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="dailyData">
+            <h1>friday</h1>
+            <img src="Photos/some_clouds.png" alt="some_clouds">
+            <p>Some clouds</p>
+            <div class="tempEachDay">
+                <p class="highTemp"><span class="converter">21</span>°</p>
+                <p class="lowTemp"><span class="converter">16</span>°</p>
+            </div>
+        </div>
+
+
+
+
+        <div class="dailyData">
+            <h1>Saturday</h1>
+            <img src="Photos/some_sun.png" alt="some_sun">
+            <p>Some sun</p>
+            <div class="tempEachDay">
+                <p class="highTemp"><span class="converter" >26</span>°</p>
+                <p class="lowTemp"><span class="converter">21</span>°</p>
+            </div>
+        </div>
+ 
+
+
+
+        <div class="cookie">
+    
+                <img src="Photos/cookie.png" alt="CookiesImg">
+  
+            <div class="cookieText">
+                <h1>Stop! Cookie time</h1>
+                <p>We used cookies (sadly not the edibl ones) to perspnaliz content and ads, to <br>provide social media
+                    features and to analyse our traffic. <a href="#">Read more</a></p>
+            </div>
+            <button onclick="cookies()">I Accept</button>
+        </div>
+
+
+
+
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
