@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A Web Page (Otaku)</title>
+</head>
+
+<body>
+
+    <div class="headerPage">
+
+        <div class="page_name_picture">
+            <img src="Web-Fund/Assets/Slider/tv-5.jpg" alt="girl-tv-5">
+            <h1>Ota<span class="colorForName">ku</span></h1>
+        </div>
+
+        <input type="search" placeholder="search"  value="" id="search-input">
+        <img src="Web-Fund/Assets/search-512.webp" alt="searchIcon" class="toSearch" onclick="Message()">
+
+        <div class="likesOfPage">
+            <img src="Web-Fund/download.png" alt="Likes Of Page">
+            <p class="result">0</p>
+        </div>
+
+    </div>
+    <div class="bar_for_option_page">
+        <label>Home</label>
+        <label>Category</label>
+        <label>Countact Us</label>
+        <button>Sign in</button>
+    </div>
+
+    <div class="mainPhoto">
+        <button class="watchNew " onclick="delet(this)"> Watch New</button>
+        <img src="Web-Fund/Assets/Slider/tv-5.jpg" alt="girl-tv-5" >
+        
+    </div>
+
+    <div class="mid_Page">
+
+        <div class="cards_trenging">
+            <h1>Trending New</h1>
+            <div class="row">
+
+
+                <div class="theCard">
+                    <img src="Web-Fund/Assets/trendingnow/Naruto.jpg" alt="Naruto">
+                    <div class="titleCard">
+                        <p>Naruto</p>
+                        <img src="Web-Fund/download.png" alt="love Icon" onclick="incrementLikes('.result')">
+                    </div>
+                    <button >Show More</button>
+                </div>
+
+                <div class="theCard">
+                    <img src="Web-Fund/Assets/trendingnow/One Piece.jpg" alt="One Piece">
+                    <div class="titleCard">
+                        <p>One Piece</p>
+                        <img src="Web-Fund/download.png" alt="love Icon" onclick="incrementLikes('.result')">
+                    </div>
+                    <button >Show More</button>
+                </div>
+
+
+                <div class="theCard">
+                    <img src="Web-Fund/Assets/trendingnow/Attack on Titan.jpg" alt="Attack on Titan">
+                    <div class="titleCard">
+                        <p>Attack on Titan</p>
+                        <img src="Web-Fund/download.png" alt="love Icon" onclick="incrementLikes('.result')">
+                    </div>
+                    <button >Show More</button>
+                </div>
+            </div>
+
+
+            <div class="row">
+
+                <div class="theCard">
+                    <img src="Web-Fund/Assets/trendingnow/Dragon Ball.jpg" alt="Dragon Ball">
+                    <div class="titleCard">
+                        <p>Dragon Ball</p>
+                        <img src="Web-Fund/download.png" alt="love Icon" onclick="incrementLikes('.result')">
+                    </div>
+                    <button >Show More</button>
+                </div>
+
+                <div class="theCard">
+                    <img src="Web-Fund/Assets/trendingnow/Hunter x Hunter.jpg" alt="Hunter x Hunter">
+                    <div class="titleCard">
+                        <p>Hunter x Hunter</p>
+                        <img src="Web-Fund/download.png" alt="love Icon" onclick="incrementLikes('.result')">
+                    </div>
+                    <button >Show More</button>
+                </div>
+                <div class="theCard">
+                    <img src="Web-Fund/Assets/trendingnow/Steinsgate.jpg" alt="Steinsgate">
+                    <div class="titleCard">
+                        <p>Steinsgate</p>
+                        <img src="Web-Fund/download.png" alt="love Icon" onclick="incrementLikes('.result')">
+                    </div>
+                    <button >Show More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tpoViews">
+            <h1>Top Views</h1>
+            <img src="Web-Fund/Assets/topviews/tv-1.jpg" alt="Anime"><br>
+            <img src="Web-Fund/Assets/topviews/tv-3.jpg" alt="Anime"><br>
+            <img src="Web-Fund/Assets/topviews/tv-4.jpg" alt="Anime"><br>
+        </div>
+    </div>
+
+    <div class="bottonBageMoreInfo">
+
+        <div class="titelInfo">
+            <h1>Website Info</h1>
+            <h1>Important Links</h1>
+            <h1>Legal Info&Policie</h1>
+            <h1>Help and Support</h1>
+        </div>
+        <div class="linkesSupport">
+            <div class="links">
+                <a href="#">Otaku</a><br>
+                <a href="#">About As</a>
+            </div>
+            <div class="links">
+                <a href="#">Anmie List</a><br>
+                <a href="#">Anmie News</a>
+            </div>
+            <div class="links">
+                <a href="#">Privacy Policy</a><br>
+                <a href="#">Terms of Use</a>
+            </div>
+            <div class="links">
+                <a href="#">Technical Support</a><br>
+                <a href="#">FAQ</a>
+            </div>
+        </div>
+
+        <div class="moreTitelInfo">
+            <h1>Social Media Link <div class="socialMediaImg">
+                <img src="Web-Fund/Assets/facebook.png" alt="Facebook">
+                <img src="Web-Fund/Assets/instagram.jpg" alt="Instagram">
+                <img src="Web-Fund/Assets/x.jpg" alt="X">
+            </div></h1>
+            <h1>Copyrights Info <br> <p>Copyright @2024 All rights <br> reserved This template is <br>made with by <a href="#">Axsos Acodemy</a></p></h1>
+            <h1>Contact Us <br> <input type="email" placeholder="email@axsos.com" class="ipColor"> <br> <input type="text" placeholder="yourname" class="ipColor"> <button class="Contact">send</button></h1>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+
